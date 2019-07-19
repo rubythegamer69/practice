@@ -9,7 +9,7 @@ int main(void)
     {
         do                                             // do while loop to check if worker is valid for overtime or salary
         {
-            printf("Welcome. You are the %d worker.\n", i + 1);    //statement telling the user the array location they are in
+            printf("Welcome. You are worker No: %d.\n", i + 1);    //statement telling the user the array location they are in
             printf("Enter your name:\n");
             scanf("%s", name[i]);
             printf("Enter your salary in Rs:\n");
